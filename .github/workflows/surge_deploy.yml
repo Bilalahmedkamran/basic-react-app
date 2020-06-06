@@ -31,4 +31,4 @@ jobs:
     - name : install surge
       run : npm install --g surge
     - name : deploy to surge
-      run : surge ./build project003bilalakamran.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run : surge ./build basic-react-app-bilalka.surge.sh --token ${{secrets.SURGE_TOKEN}}
