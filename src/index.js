@@ -5,9 +5,16 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <p>"Hello <strong>Bilal"!</strong></p>
+    <p>My age is {10+9} years</p>
+    <h1>List of pre-requisite languages for this bootcamp</h1>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>javaScript</li>
+    </ol>
+  </div>,
   document.getElementById('root')
 );
 
