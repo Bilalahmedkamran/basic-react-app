@@ -7,7 +7,7 @@ ReactDOM.render(
   <div>
     <p>"Hello <strong>Bilal"!</strong></p>
     <p>My age is {10+9} years</p>
-    <h1>List of pre-requisite languages for this bootcamp</h1>
+    <h1 className="heading">List of pre-requisite languages for this bootcamp</h1>
     <ol>
       <li>HTML</li>
       <li>CSS</li>
