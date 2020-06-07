@@ -13,6 +13,7 @@ ReactDOM.render(
       <li>CSS</li>
       <li>javaScript</li>
     </ol>
+<p className="calc">There is a simple mathematical calculation here    10+5={10+5}</p>
   </div>,
   document.getElementById('root')
 );
