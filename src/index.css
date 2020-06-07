@@ -14,3 +14,9 @@ code {
 .heading{
   background-color: brown;
 }
+
+.calc{
+  font-family: fantasy;
+  background-color: aqua;
+  align-self: center;
+}
